@@ -5,20 +5,30 @@ import "fmt"
 func main() {
 	slcs := [][]int{
 		{1, 2, 3, 4, 5},
-		{6, 7, 8, 9, 10},
-		{11, 12, 13, 14, 15},
-		{16, 17, 18, 19, 20},
-		{21, 22, 23, 24, 25},
+		{7, 8, 9, 10, 11, 12, 13, 14, 15, 16},
+		{17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31},
 	}
 
-	for i, slc := range slcs {
+	// for i, slc := range slcs {
+	// 	v := LLFromSlc(slc)
+	// 	v.Print()
+	// 	fmt.Printf("removing element %v from back\n", i+1)
+	// 	v.RemoveNthNode(i + 1)
+	// 	v.Print()
+	// 	fmt.Println()
+	// }
+
+	for _, slc := range slcs {
 		v := LLFromSlc(slc)
+		fmt.Print("odd even node, initial ll: ")
 		v.Print()
-		fmt.Printf("removing element %v from back\n", i+1)
-		v.RemoveNthNode(i + 1)
+
+		v.OddEvenNode()
+		fmt.Print("odd even node, final ll:   ")
 		v.Print()
 		fmt.Println()
 	}
+
 }
 
 type LL struct {
@@ -29,35 +39,6 @@ type LL struct {
 type LLNode struct {
 	Val  int
 	Next *LLNode
-}
-
-func (ll *LL) RemoveNthNode(n int) *LLNode {
-	i, j := ll.Head, ll.Head
-
-	// Start first pointer at node n if it exists
-	for k := 0; k < n; k++ {
-		if j != nil {
-			j = j.Next
-		} else {
-			// We return the head since we would have exited the linkedlist at this iteration, so there is no nth node from the ll to remove when our ll isn't long enough
-			// So we return the ll as is with no nodes removed
-			return ll.Head
-		}
-	}
-
-	if j == nil {
-		// Since we haven't returned this means we are at the case where the element we want to remove is the head
-		ll.Head = ll.Head.Next
-		return ll.Head
-	}
-
-	for j.Next != nil {
-		j = j.Next
-		i = i.Next
-	}
-
-	i.Next = i.Next.Next
-	return ll.Head
 }
 
 func LLFromSlc(arr []int) *LL {
