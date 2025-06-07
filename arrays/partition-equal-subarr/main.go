@@ -6,10 +6,10 @@ import (
 )
 
 func main() {
-	fmt.Println(PartitionEqualSubarr([]int{1, 5, 11, 5}))          // true
-	fmt.Println(PartitionEqualSubarr([]int{1, 2, 3, 5}))           // false
-	fmt.Println(PartitionEqualSubarr([]int{1, 5, 6, 10, 10, 10}))  // true
-	fmt.Println(PartitionEqualSubarr([]int{-3, 1, 2, 3, 4, 5, 6})) // true
+	fmt.Println(PartitionEqualSubarr([]int{1, 5, 11, 5}))               // true
+	fmt.Println(PartitionEqualSubarr([]int{1, 2, 3, 5}))                // false
+	fmt.Println(PartitionEqualSubarr([]int{4, 5, 6, 7, 8, 9, 1, 2, 3})) // true
+	fmt.Println(PartitionEqualSubarr([]int{-3, 1, 2, 3, 4, 5, 6}))      // true
 }
 
 func PartitionEqualSubarr(arr []int) bool {

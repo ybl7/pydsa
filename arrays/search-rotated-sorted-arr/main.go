@@ -3,10 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println(SchRotSortArr([]int{4, 5, 6, 7, 0, 1, 2}, 0, 0))       // 4
-	fmt.Println(SchRotSortArr([]int{4, 5, 6, 7, 0, 1, 2}, 0, 3))       // -1
-	fmt.Println(SchRotSortArr([]int{1}, 0, 0))                         // -1
-	fmt.Println(SchRotSortArr([]int{4, 5, 6, 7, 8, 9, 1, 2, 3}, 0, 2)) // 7
+	fmt.Println(SchRotSortArr([]int{4, 5, 6, 7, 0, 1, 2}, 0, 0)) // 4
+
 }
 
 func SchRotSortArr(arr []int, offset, tgt int) int {
