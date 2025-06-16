@@ -238,4 +238,4 @@ func MaxValIdx(arr []int) (int, int) {
 //                ^
 //                |
 // The calculation of the column max is done by looping over the number of columns and adding the value for the column index to a temp array
-// then taking this temp array and finding the maximum of it
+// then taking this temp array and finding the maximum of it. One thing to note is that looking up array values by index is O(1).
