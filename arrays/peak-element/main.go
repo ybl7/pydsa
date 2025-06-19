@@ -17,8 +17,3 @@ func PeakElement(arr []int) int {
 	// since we proved that the interval that we keep MUST have a peak in it, if l == r then this 0 width interval must be a peak
 	return l
 }
-
-// Example [1, 2, 3, 1]
-
-// l = 0, r = 3, m = 1
-// arr[m] = 2 which is < 3, so 3 is our current peak

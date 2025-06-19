@@ -4,7 +4,7 @@ import (
 	deque "github.com/idsulik/go-collections/v3/deque"
 )
 
-func main()
+func main() {}
 
 func BinTreeRightSideView(root *Node) []int {
 	if root == nil {
@@ -64,3 +64,5 @@ func BinTreeFromArr(arr []int) *Node {
 // Therefore this seems to be linear in the input size, i.e. the total number of nodes in the tree, tree depth has no effect, so I'll say it's O(n) in time
 // For space we initialise an array, the largest the array can ever get is N/2, we want the shortest and widest binary tree possilbe, and this is a balanced tree, where the lowest
 // level of the tree has N/2 nodes
+
+// 23m
