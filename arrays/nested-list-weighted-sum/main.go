@@ -5,7 +5,7 @@ func NestedListWeightedSum(arr []interface{}, sum, depth int) int {
 		if IsInt(e) {
 			sum += e.(int) * depth
 		} else {
-			sum += NestedListWeightedSum(e.([]interface{}), sum, depth+1)
+			sum += NestedListWeightedSum(e.([]interface{}), 0, depth+1)
 		}
 	}
 	return sum
