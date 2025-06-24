@@ -23,3 +23,6 @@ func Pow(x float64, n int) float64 {
 		return 1 / quickPower(x, -n)
 	}
 }
+
+// This is better than an O(n) approach where you multiply the base in each iteration by itself
+// You approach the exponent logarithmically since you are halving the exponent each iteration, so this is O(log(n))
