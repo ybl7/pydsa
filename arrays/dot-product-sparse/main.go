@@ -15,7 +15,7 @@ func (s *Sparse) DotProduct(arr1, arr2 []int) int {
 	for i, j := 0, 0; i < len(v1) && j < len(v2); {
 		if v1[i].Idx < v2[j].Idx {
 			i++
-		} else if v1[i].Idx < v2[j].Idx {
+		} else if v1[i].Idx > v2[j].Idx {
 			j++
 		} else { // i == j
 			prod += v1[i].Val * v2[j].Val
