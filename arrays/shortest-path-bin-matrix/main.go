@@ -1,3 +1,5 @@
+package main
+
 import (
 	dq "github.com/idsulik/go-collections/deque"
 )
