@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"sort"
 )
 
@@ -8,6 +9,7 @@ func main() {
 	MaxProfitJobSched([]int{1, 2, 4, 6, 5, 7}, []int{3, 5, 6, 7, 8, 9}, []int{5, 6, 5, 4, 11, 2})
 	MaxProfitJobSched([]int{1, 2, 3, 4, 6}, []int{3, 5, 10, 6, 9}, []int{20, 20, 100, 70, 60})
 	MaxProfitJobSched([]int{1, 1, 1}, []int{2, 3, 4}, []int{5, 6, 4})
+	MaxProfitJobSched([]int{1, 2, 3, 4}, []int{3, 5, 6, 7}, []int{50, 20, 100, 70})
 }
 
 func MaxProfitJobSched(starts, ends, profits []int) int {
@@ -44,7 +46,7 @@ func MaxProfitJobSched(starts, ends, profits []int) int {
 			max = e
 		}
 	}
-
+	fmt.Println(profAtEnd)
 	return max
 }
 
