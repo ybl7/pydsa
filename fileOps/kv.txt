@@ -1,0 +1,5 @@
+a=1
+b=banana
+c=chocolate
+cdr=1234=
+bono=12=34

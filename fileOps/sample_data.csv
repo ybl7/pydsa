@@ -1,0 +1,17 @@
+employee_id,first_name,last_name,department,salary,hire_date,email,manager_id
+1001,John,Doe,Engineering,75000,2020-03-15,john.doe@company.com,2001
+1002,Jane,Smith,Marketing,65000,2019-07-22,jane.smith@company.com,2002
+1003,Bob,Johnson,Engineering,80000,2021-01-10,bob.johnson@company.com,2001
+1004,Alice,Brown,Sales,55000,2022-05-18,alice.brown@company.com,2003
+1005,Charlie,Wilson,HR,60000,2020-11-03,charlie.wilson@company.com,2004
+1006,Diana,Davis,Engineering,78000,2021-09-12,diana.davis@company.com,2001
+1007,Eve,Miller,Marketing,62000,2023-02-28,eve.miller@company.com,2002
+1008,Frank,Garcia,Sales,58000,2022-08-14,frank.garcia@company.com,2003
+1009,Grace,Lee,Finance,70000,2019-12-05,grace.lee@company.com,2005
+1010,Henry,Taylor,IT,72000,2020-06-30,henry.taylor@company.com,2006
+2001,Michael,Clark,Engineering,95000,2018-01-15,michael.clark@company.com,
+2002,Sarah,Anderson,Marketing,85000,2017-09-20,sarah.anderson@company.com,
+2003,David,Thomas,Sales,90000,2018-04-10,david.thomas@company.com,
+2004,Lisa,Martinez,HR,80000,2019-03-25,lisa.martinez@company.com,
+2005,Robert,White,Finance,88000,2017-11-08,robert.white@company.com,
+2006,Jennifer,Harris,IT,92000,2018-07-12,jennifer.harris@company.com, 

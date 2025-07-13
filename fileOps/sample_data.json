@@ -1,0 +1,85 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "age": 30,
+      "city": "New York",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "age": 25,
+      "city": "Los Angeles",
+      "active": false
+    },
+    {
+      "id": 3,
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.com",
+      "age": 35,
+      "city": "Chicago",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "Alice Brown",
+      "email": "alice.brown@example.com",
+      "age": 28,
+      "city": "Houston",
+      "active": true
+    }
+  ],
+  "products": [
+    {
+      "id": 101,
+      "name": "Laptop",
+      "category": "Electronics",
+      "price": 999.99,
+      "stock": 15
+    },
+    {
+      "id": 102,
+      "name": "Mouse",
+      "category": "Electronics",
+      "price": 29.99,
+      "stock": 50
+    },
+    {
+      "id": 103,
+      "name": "Keyboard",
+      "category": "Electronics",
+      "price": 79.99,
+      "stock": 25
+    }
+  ],
+  "orders": [
+    {
+      "order_id": "ORD-001",
+      "user_id": 1,
+      "product_id": 101,
+      "quantity": 1,
+      "total": 999.99,
+      "date": "2024-01-15"
+    },
+    {
+      "order_id": "ORD-002",
+      "user_id": 2,
+      "product_id": 102,
+      "quantity": 2,
+      "total": 59.98,
+      "date": "2024-01-16"
+    },
+    {
+      "order_id": "ORD-003",
+      "user_id": 3,
+      "product_id": 103,
+      "quantity": 1,
+      "total": 79.99,
+      "date": "2024-01-17"
+    }
+  ]
+} 

@@ -1,0 +1,27 @@
+top - 14:32:15 up 5 days, 12:34,  3 users,  load average: 0.42, 0.35, 0.28
+Tasks: 247 total,   1 running, 246 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.3 us,  0.8 sy,  0.0 ni, 96.7 id,  0.2 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :  15847.2 total,   8234.5 free,   4321.8 used,   3290.9 buff/cache
+MiB Swap:   4096.0 total,   4096.0 free,      0.0 used.  10987.2 avail Mem
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1234 root      20   0  165432  12456   8932 S   3.2   0.1   0:42.18 systemd
+   2345 www-data  20   0  298764  45678  23456 S   2.8   0.3   1:23.45 apache2
+   3456 mysql     20   0  1234567 234567 12345 S   2.3   1.5   5:43.21 mysqld
+   4567 user1     20   0  456789  67890  34567 S   1.9   0.4   0:15.67 firefox
+   5678 user1     20   0  123456  23456  12345 S   1.2   0.1   0:08.92 chrome
+   6789 root      20   0   87654  12345   6789 S   0.8   0.1   0:05.34 sshd
+   7890 user2     20   0  345678  45678  23456 S   0.6   0.3   0:12.45 python3
+   8901 root      20   0   65432   8765   4321 S   0.4   0.1   0:03.21 cron
+   9012 user1     20   0  234567  34567  17890 S   0.3   0.2   0:07.89 node
+  10123 root      20   0   54321   7654   3210 S   0.2   0.0   0:01.23 dbus
+  11234 user2     20   0  456789  56789  28901 S   0.2   0.4   0:09.87 code
+  12345 user1     20   0   98765  12345   6789 S   0.1   0.1   0:02.34 bash
+  13456 root      20   0   76543   9876   5432 S   0.1   0.1   0:04.56 NetworkManager
+  14567 user2     20   0  187654  23456  12345 S   0.1   0.1   0:06.78 gnome-terminal
+  15678 user1     20   0   43210   5678   2345 S   0.0   0.0   0:00.89 vim
+  16789 root      20   0   32109   4321   1234 S   0.0   0.0   0:00.12 systemd-resolve
+  17890 user1     20   0  123456  15678   8901 S   0.0   0.1   0:01.45 git
+  18901 user2     20   0   87654  10987   5678 S   0.0   0.1   0:02.67 docker
+  19012 root      20   0   56789   6789   3456 S   0.0   0.0   0:00.34 cups
+  20123 user1     20   0   45678   5678   2890 S   0.0   0.0   0:00.56 grep 
